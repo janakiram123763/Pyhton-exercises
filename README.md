@@ -1,2 +1,6 @@
 # Pyhton-exercises
-The Above excercie were the part of my tarining
+values = input("Input some comma seprated numbers : ")
+list = values.split(",")
+tuple = tuple(list)
+print('List : ',list)
+print('Tuple : ',tuple)
